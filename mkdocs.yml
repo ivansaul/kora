@@ -1,0 +1,101 @@
+# Project information
+site_name: codexy
+site_author: ivansaul
+site_url: https://codexy.pages.dev
+site_description: A collection of quick reference guides for various programming languages and tools.
+docs_dir: docs/en
+
+# Repository
+repo_name: ivansaul/codexy
+repo_url: https://github.com/ivansaul/codexy
+
+# Copyright
+copyright: Copyright &copy; 2026 ivansaul
+
+# Configuration
+theme:
+  variant: modern
+  language: en
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+  icon:
+    annotation: material/plus-circle
+    edit: fontawesome/regular/pen-to-square
+  font:
+    text: Space Grotesk
+    code: Space Mono
+  palette:
+    - scheme: default
+      toggle:
+        icon: lucide/sun
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: lucide/moon
+        name: Switch to light mode
+# Extensions
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.blocks.caption
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+# Plugins
+plugins:
+  - meta
+  - search
+  - macros
+  - social:
+      enabled: !ENV [CI, false]
+      cards_layout: default/accent
+      cards_layout_options:
+        font_family: Roboto
+        background_color: "#0083e7"
+  - glightbox:
+      zoomable: false
+      draggable: true
+  - git-revision-date-localized:
+      locale: en
+      enabled: !ENV [CI, false]
+      enable_creation_date: true
+      type: timeago
+  - literate-nav:
+      nav_file: .toc
+  - git-committers:
+      repository: ivansaul/codexy
+      branch: master
+      docs_path: docs/en
+      enabled: !ENV [CI, false]
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/tDvybtJ7y9
+    - icon: fontawesome/brands/github
+      link: https://github.com/ivansaul/codexy

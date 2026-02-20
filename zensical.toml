@@ -27,7 +27,7 @@ site_author = "ivansaul"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-#site_url = "https://www.example.com/"
+site_url = "https://www.example.com/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
@@ -36,6 +36,11 @@ site_author = "ivansaul"
 copyright = """
 Copyright &copy; 2026 The authors
 """
+
+# The docs_dir setting specifies the path to the directory that contains
+# your source files. This must be a relative path, which is resolved
+# relative to the configuration file.
+docs_dir = "docs/en"
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
@@ -49,10 +54,10 @@ Copyright &copy; 2026 The authors
 #   { "Markdown in 5min" = "markdown.md" },
 # ]
 # nav = [
-#   { "Quick Reference" = [
+#   { "Reference" = [
 #       { "Swift" = [
-#           "quick-ref/swift/index.md",
-#           "quick-ref/swift/switch.md"
+#           "reference/swift/index.md",
+#           "reference/swift/functions.md"
 #       ]}
 #   ]}
 # ]
@@ -329,3 +334,33 @@ rustt = "rs"
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
+
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.toc]
+permalink = true
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+[project.markdown_extensions.pymdownx.betterem]
+smart_enable = "all"
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_generator = "zensical.extensions.emoji.to_svg"
+emoji_index = "zensical.extensions.emoji.twemoji"
+[project.markdown_extensions.pymdownx.highlight]
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.smartsymbols]
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+[project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.snippets]
