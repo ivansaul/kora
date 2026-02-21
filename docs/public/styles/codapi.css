@@ -1,0 +1,98 @@
+codapi-snippet {
+    display: block;
+    margin-bottom: 0.8em;
+    background: var(--color-pre);
+}
+
+codapi-snippet,
+pre + codapi-snippet {
+    margin-top: -0.8em;
+}
+
+codapi-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 0;
+    padding: 0 0 0;
+    font-size: inherit;
+}
+
+codapi-toolbar button,
+codapi-toolbar a[href="#edit"] {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+
+    padding: 0;
+    border: none;
+    background: none;
+
+    font: inherit;
+    line-height: 1.35;
+    color: var(--color-blue);
+
+    cursor: pointer;
+}
+
+codapi-toolbar button {
+    font-weight: 500;
+}
+
+codapi-toolbar a[href="#edit"] {
+    opacity: 0.9;
+}
+
+codapi-toolbar button::after {
+    content: " ▶";
+}
+
+codapi-toolbar button:hover,
+codapi-toolbar a[href="#edit"]:hover {
+    color: #5cb8ff;
+}
+
+codapi-toolbar a,
+codapi-toolbar a:link,
+codapi-toolbar a:visited,
+codapi-toolbar a:hover,
+codapi-toolbar a:active {
+    text-decoration: none !important;
+}
+
+/*codapi-toolbar a[href="#edit"]::after {
+    content: " ✎";
+}*/
+
+codapi-status {
+    display: block;
+    white-space: nowrap;
+}
+
+codapi-status svg {
+    width: 1em;
+    height: 1em;
+}
+
+codapi-output {
+    display: block;
+    margin-bottom: 0.8em;
+    border-top: 1px solid var(--color-bg);
+}
+
+codapi-output[hidden] {
+    display: none;
+}
+
+codapi-output a[href="#close"] {
+    display: none;
+}
+codapi-output pre {
+    margin-bottom: 0;
+}
+
+codapi-output pre > code {
+    margin-bottom: 0;
+    padding: 0.8em 1.5em;
+}
