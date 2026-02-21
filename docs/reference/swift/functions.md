@@ -387,7 +387,7 @@ func loadData(id: String, completion: (String) -> ()) {
     completion("This is the result data")
 }
 ```
-<codapi-snippet engine="codapi" sandbox="swift" editor="basic", id="loadData"></codapi-snippet>
+<codapi-snippet engine="codapi" sandbox="swift" editor="basic" id="loadData"></codapi-snippet>
 
 the function can be invoked using the Trailing Closure Syntax
 
@@ -430,4 +430,3 @@ The log should print:
 Just beginning
 Over already
 ```
-
