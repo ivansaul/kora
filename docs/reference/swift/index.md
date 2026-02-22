@@ -4,12 +4,11 @@ icon: fontawesome/brands/swift
 tags:
     - swift
     - reference
+comments: true
 ---
 
 This quick reference provides examples of using Swift that cover basic Swift knowledge.
 
-!!! abstract
-
-    **_Contents:_**
+!!! abstract "Chapter Contents:"
   
     --8<-- "docs/reference/swift/.toc:2"

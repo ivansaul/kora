@@ -3,6 +3,7 @@ title: Dictionaries
 tags:
   - swift
   - reference
+comments: true
 ---
 
 ## Declaring Dictionaries

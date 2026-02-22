@@ -3,6 +3,7 @@ title: Functions
 tags:
   - swift
   - reference
+comments: true
 ---
 
 ## Basic Use

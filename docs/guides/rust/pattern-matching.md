@@ -4,6 +4,7 @@ tags:
   - rust
   - guide
 image: https://i.imgur.com/TxwTyvQ.png
+comments: true
 ---
 
 **Pattern matching** is one of Rust's most powerful features. It lets you compare a value against a structure, safely extract pieces of data, and run different code depending on what you find — all in a clean, readable way.

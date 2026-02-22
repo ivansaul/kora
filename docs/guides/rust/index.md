@@ -6,8 +6,8 @@ tags:
     - guide
 ---
 
-!!! abstract
+Useful guides for Rust developers.
 
-    **_Contents:_**
+!!! abstract "Contents"
   
     --8<-- "docs/guides/rust/.toc:2"
