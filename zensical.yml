@@ -144,3 +144,7 @@ nav:
           - reference/swift/index.md
           - Functions: reference/swift/functions.md
           - Dictionaries: reference/swift/dictionaries.md
+  - Guides:
+      - Rust:
+          - guides/rust/index.md
+          - guides/rust/pattern-matching.md
