@@ -1,5 +1,8 @@
 ---
 title: Functions
+tags:
+  - swift
+  - reference
 ---
 
 ## Basic Use

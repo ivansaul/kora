@@ -1,3 +1,14 @@
 - [Swift](index.md)
-- [Dictionaries](dictionaries.md)
-- [Functions](functions.md)
+- [ ] Optionals
+- [ ] Tuples
+- [ ] Arrays
+- [ ] Sets
+- [ ] Enums
+- [ ] Structs
+- [x] [Dictionaries](dictionaries.md)
+- [x] [Functions](functions.md)
+- [ ] Protocols
+- [ ] Classes
+- [ ] Closures
+- [ ] Extensions
+- [ ] Generics

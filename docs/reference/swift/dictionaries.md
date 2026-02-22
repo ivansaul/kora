@@ -1,8 +1,11 @@
 ---
 title: Dictionaries
+tags:
+  - swift
+  - reference
 ---
 
-##Declaring Dictionaries
+## Declaring Dictionaries
 
 Dictionaries are an unordered collection of keys and values. Values relate to unique keys and must be of the same type.
 

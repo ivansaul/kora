@@ -6,7 +6,7 @@ tags:
     - reference
 ---
 
-This quick reference provides examples of using Swift that cover basic Swift knowledge, control flow and more.
+This quick reference provides examples of using Swift that cover basic Swift knowledge.
 
 !!! abstract
 
