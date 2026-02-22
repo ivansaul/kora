@@ -15,3 +15,9 @@ site/
 .tmp
 .DS_Store
 node_modules/
+rust-pl/
+/target
+package.json
+package-lock.json
+bun.lock
+*.pdf
