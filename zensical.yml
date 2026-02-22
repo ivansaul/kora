@@ -15,7 +15,7 @@ copyright: "&copy; 2026 ivansaul"
 # Configuration
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
   features:
     - announce.dismiss
     - content.action.edit
