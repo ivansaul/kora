@@ -3,8 +3,11 @@ title: Pattern Matching in Rust
 tags:
   - rust
   - guide
+  - enum
+  - match
 image: https://i.imgur.com/TxwTyvQ.png
 comments: true
+description: A comprehensive guide to pattern matching in Rust, covering destructuring, pattern binding, match expressions, and advanced patterns.
 ---
 
 **Pattern matching** is one of Rust's most powerful features. It lets you compare a value against a structure, safely extract pieces of data, and run different code depending on what you find — all in a clean, readable way.
@@ -86,7 +89,7 @@ let w @ t @ f = 42;
 
 Regular `let` only works for **irrefutable** patterns (ones that can never fail). For things that might fail (`Option`, `Result`, etc.) we have better tools.
 
-### `let else` 
+### `let else`
 
 ```rust
 fn main() {
@@ -99,7 +102,7 @@ fn main() {
     dbg!(id); // → id = 100
 }
 
-fn get_result() -> Result<u32, String> { 
+fn get_result() -> Result<u32, String> {
     Ok(100)
 }
 ```
@@ -144,7 +147,7 @@ You can chain multiple `let` bindings in a single `if` condition using `&&`:
 #[derive(Debug)]
 enum Status {
     Todo,
-    InProgress(u32), 
+    InProgress(u32),
     Done { completed_at: String },
     Cancelled,
 }
@@ -158,7 +161,7 @@ if let Some(id) = maybe_id && let Some(Status::Done { .. }) = maybe_status {
 ```
 
 !!! tip
-    Let chains — multiple bindings in one condition are only allowed in Rust 2024 or later 
+    Let chains — multiple bindings in one condition are only allowed in Rust 2024 or later
 
 ### `while let` - Loop while the pattern matches
 
@@ -197,7 +200,7 @@ fn sum_pair((a, b): (i32, i32)) -> i32 {
 
 ## The `match` Expression
 
-`match` is the centerpiece of pattern matching in Rust. It takes a value and a list of *arms*, each with a pattern and code to run if it matches. It is also an **expression** — it produces a value.
+`match` is the centerpiece of pattern matching in Rust. It takes a value and a list of _arms_, each with a pattern and code to run if it matches. It is also an **expression** — it produces a value.
 
 ```rust
 let status = Status::Done { completed_at: String::from("2026-02-21") };
@@ -219,7 +222,7 @@ let label = status {
     Status::Done { .. }   => "done",
     Status::Cancelled     => "cancelled",
 };
- 
+
 dbg!(label) // → label = "done"
 ```
 
@@ -236,13 +239,13 @@ let point = Point { x: 10, y: 20 };
 match point {
     // Exact value match
     Point { x: 0, y: 1 } => println!("At the origin"),
-    
+
     // Bind fields to new names
     Point { x: a, y: b } => println!("Point is at X:{}, Y:{}", a, b),
-    
+
     // Shorthand — same name as field
     Point { x, y } => println!("Point is at {}, {}", x, y),
-    
+
     // Ignore everything
     Point { .. } => println!("Some other point"),
 }
@@ -252,7 +255,7 @@ match point {
 
 ## Wildcards and Or-Patterns
 
-`_` is the **true wildcard**. It matches anything but does not bind the value. A plain variable name matches anything and *does* bind it:
+`_` is the **true wildcard**. It matches anything but does not bind the value. A plain variable name matches anything and _does_ bind it:
 
 ```rust
 let instruction = 7;
@@ -300,7 +303,7 @@ let grade = match score {
 dbg!(grade); // → grade = C
 ```
 
-Combine ranges with `@` to both verify the range *and* capture the value:
+Combine ranges with `@` to both verify the range _and_ capture the value:
 
 ```rust
 let count = 5u32;
@@ -347,7 +350,7 @@ match numbers {
 
     ```rust
     let args = ["cargo", "run", "--release"];
-    
+
     match args {
         [_, "build", ..]       => println!("Building..."),
         [_, "run", rest @ ..]  => println!("Running with flags: {:?}", rest),
@@ -357,9 +360,10 @@ match numbers {
 
     // Output: Running with flags: ["--release"]
     ```
+
 ## Pattern Guards
 
-Add an `if` condition to a match arm to apply an extra check beyond the pattern itself. The arm only fires if both the pattern *and* the guard are true:
+Add an `if` condition to a match arm to apply an extra check beyond the pattern itself. The arm only fires if both the pattern _and_ the guard are true:
 
 ```rust
 let task = Task { id: 42, completed: true, title: String::from("Write Rust guide") };
@@ -380,6 +384,7 @@ match task {
 
 // Output: High-priority completed task #42
 ```
+
 Guards also work alongside or-patterns. The guard applies to the **entire arm**, not just one of the alternatives:
 
 ```rust
@@ -401,8 +406,8 @@ Pattern matching navigates nested structures of any depth. This is especially po
 
 ```rust
 #[derive(Debug)]
-enum Priority { 
-    Low, 
+enum Priority {
+    Low,
     High
 }
 
@@ -518,28 +523,28 @@ dbg!(distances);
 ??? example "Challenge 1"
 
     **Simple Score Grade Classifier**
-    
+
     Write a function `get_grade(score: u32)` that takes a score between 0 and 100 and returns the corresponding letter grade according to these rules:
-    
+
     ```console
-    - 90–100 → "A"  
-    - 80–89  → "B"  
-    - 70–79  → "C"  
-    - 60–69  → "D"  
+    - 90–100 → "A"
+    - 80–89  → "B"
+    - 70–79  → "C"
+    - 60–69  → "D"
     - 0–59   → "F"
     ```
 
     Requirements:
-    
+
     - Use only one `match` expression
     - The match must be exhaustive
     - Use range patterns (`..=` or `..`)
-    
+
     ```rust
     fn get_grade(score: u32) -> &'static str {
       // TODO: Write your code below
     }
-    
+
     fn main() {
           assert_eq!(get_grade(95), "A");
           assert_eq!(get_grade(85), "B");
@@ -584,18 +589,18 @@ dbg!(distances);
     ```
 
     Requirements:
-    
+
     - Use only one `match` expression on the slice `args`
     - Use slice patterns (`[head, ..]`, `[head, middle @ ..]`, etc.)
     - Capture remaining flags using `..` or `x @ ..`
     - Use or-patterns to group commands that behave similarly (optional but recommended)
     - The match must be exhaustive
-    
+
     ```rust
     fn parse_command(args: &[&str]) -> String {
       // TODO: Write your code below
     }
-    
+
     fn main() {
       assert_eq!(parse_command(&["cargo", "build"]), "Command: build (no flags)");
       assert_eq!(parse_command(&["cargo", "run", "--verbose"]), "Command: run | Flags: [\"--verbose\"]");
@@ -606,9 +611,8 @@ dbg!(distances);
     }
     ```
     <codapi-snippet engine="codapi" sandbox="rust" editor="basic"></codapi-snippet>
-    
 
-    ??? tip "Hints"      
+    ??? tip "Hints"
         - The first element is always `"cargo"`
         - The second element is the subcommand (`build`, `run`, `test`, etc.)
         - Everything after the subcommand is considered flags
