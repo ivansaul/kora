@@ -4,7 +4,7 @@ icon: lucide/rocket
 
 # codexy
 
-Guides for learning `Python`, `Rust`, `Swift`, `JavaScript`, `Kotlin`, `Go`, `Git`, and more!
+Quick reference guides for learning `Python`, `Rust`, `Swift`, `JavaScript`, `Kotlin`, `Go`, `Git`, and more!
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-snow?logo=python&logoColor=3776AB" />
@@ -26,10 +26,10 @@ Guides for learning `Python`, `Rust`, `Swift`, `JavaScript`, `Kotlin`, `Go`, `Gi
 
 We're always looking to expand and improve **codexy**! If you have a `quick-ref` or `guide` to share or see something that could be improved, feel free to submit a pull request. Let's build a valuable resource for developers together. Feel free to [open an issue](https://github.com/ivansaul/codexy/issues) if you have any questions or suggestions.
 
----
+<div align="center">
+    <img width="200" src="https://i.imgur.com/oDKBlfO.png" alt="img">
+</div>
 
-!!! tip "WIP"
-
-    This project is still a work in progress...
-
----
+<div align="center">
+    <img width="400" src="https://i.imgur.com/UGg0ePe.png" alt="img">
+</div>
