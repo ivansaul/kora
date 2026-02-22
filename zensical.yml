@@ -70,7 +70,7 @@ plugins:
 
 # Additional configuration
 extra:
-  homepage: /reference/swift
+  homepage: /
   scope: /
   annotate:
     json: [.s2]
@@ -137,6 +137,8 @@ markdown_extensions:
 
 # Page tree
 nav:
+  - Home:
+      - index.md
   - Reference:
       - Swift:
           - reference/swift/index.md
