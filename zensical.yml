@@ -146,6 +146,7 @@ nav:
   - Reference:
       - Swift:
           - reference/swift/index.md
+          - Enums: reference/swift/enums.md
           - Functions: reference/swift/functions.md
           - Dictionaries: reference/swift/dictionaries.md
   - Guides:

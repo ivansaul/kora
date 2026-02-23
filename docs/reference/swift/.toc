@@ -3,7 +3,7 @@
 - [ ] Tuples
 - [ ] Arrays
 - [ ] Sets
-- [ ] Enums
+- [x] [Enums](enums.md)
 - [ ] Structs
 - [x] [Dictionaries](dictionaries.md)
 - [x] [Functions](functions.md)
