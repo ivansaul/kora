@@ -1,6 +1,6 @@
 ---
 title: Git Clone
-image: https://i.imgur.com/0scEoci.png
+image: https://i.imgur.com/xSA4JET.png
 tags:
   - git
   - reference
