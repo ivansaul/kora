@@ -149,6 +149,8 @@ nav:
           - Enums: reference/swift/enums.md
           - Functions: reference/swift/functions.md
           - Dictionaries: reference/swift/dictionaries.md
+      - Git:
+          - reference/git/index.md
   - Guides:
       - Rust:
           - guides/rust/index.md

@@ -1,0 +1,21 @@
+- [Git](index.md)
+- [ ] Getting Started
+- [ ] Working with Remotes
+- [ ] Git Clone
+- [ ] Staging
+- [ ] Ignoring Files and Folders
+- [ ] Git Diff
+- [ ] Undoing
+- [ ] Merging
+- [ ] Committing
+- [ ] Rebasing
+- [ ] Branching
+- [ ] Squashing
+- [ ] Cherry Picking
+- [ ] Git Clean
+- [ ] Pulling
+- [ ] Pushing
+- [ ] Stashing
+- [ ] Git Tagging
+- [ ] Configuration
+- [ ] Browsing the History
