@@ -1,1 +1,2 @@
 - [Dart Tips & Tricks](index.md)
+- [abstract class vs interface class](abstract-class-vs-interface-class.md)

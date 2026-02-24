@@ -160,3 +160,4 @@ nav:
   - Tips:
       - Dart:
           - tips/dart/index.md
+          - tips/dart/abstract-class-vs-interface-class.md
