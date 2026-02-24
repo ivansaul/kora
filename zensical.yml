@@ -157,3 +157,6 @@ nav:
       - Rust:
           - guides/rust/index.md
           - guides/rust/pattern-matching.md
+  - Tips:
+      - Dart:
+          - tips/dart/index.md
