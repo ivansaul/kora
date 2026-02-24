@@ -15,7 +15,7 @@
 - [ ] Git Clean
 - [ ] Pulling
 - [ ] Pushing
-- [ ] Stashing
+- [x] [Git Stash](git-stash.md)
 - [ ] Git Tagging
 - [ ] Configuration
 - [ ] Browsing the History

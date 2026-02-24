@@ -152,6 +152,7 @@ nav:
       - Git:
           - reference/git/index.md
           - git clone: reference/git/git-clone.md
+          - git stash: reference/git/git-stash.md
   - Guides:
       - Rust:
           - guides/rust/index.md
