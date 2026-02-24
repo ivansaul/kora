@@ -2,7 +2,7 @@
 icon: lucide/rocket
 ---
 
-# codexy
+# kora
 
 Quick reference guides for learning `Python`, `Rust`, `Swift`, `JavaScript`, `Kotlin`, `Go`, `Git`, and more!
 
@@ -24,7 +24,7 @@ Quick reference guides for learning `Python`, `Rust`, `Swift`, `JavaScript`, `Ko
 
 ## Contribute
 
-We're always looking to expand and improve **codexy**! If you have a `quick-ref` or `guide` to share or see something that could be improved, feel free to submit a pull request. Let's build a valuable resource for developers together. Feel free to [open an issue](https://github.com/ivansaul/codexy/issues) if you have any questions or suggestions.
+We're always looking to expand and improve **kora**! If you have a `quick-ref` or `guide` to share or see something that could be improved, feel free to submit a pull request. Let's build a valuable resource for developers together. Feel free to [open an issue](https://github.com/ivansaul/kora/issues) if you have any questions or suggestions.
 
 <div align="center">
     <img width="200" src="https://i.imgur.com/oDKBlfO.png" alt="img">

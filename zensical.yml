@@ -1,12 +1,12 @@
 # Project information
-site_name: codexy
-site_url: https://codexy.pages.dev
+site_name: kora
+site_url: https://kora.ivansaul.com
 site_description: >-
   A collection of quick reference guides for various programming languages and tools.
 
 # Repository
-repo_name: ivansaul/codexy
-repo_url: https://github.com/ivansaul/codexy
+repo_name: ivansaul/kora
+repo_url: https://github.com/ivansaul/kora
 edit_uri: edit/dev/docs/
 
 # Copyright
@@ -83,7 +83,7 @@ extra:
     deprecated: Deprecated
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ivansaul/codexy
+      link: https://github.com/ivansaul/kora
     - icon: fontawesome/brands/discord
       link: https://discord.gg/tDvybtJ7y9
   tags:
@@ -120,7 +120,7 @@ markdown_extensions:
       normalize_issue_symbols: true
       repo_url_shorthand: true
       user: ivansaul
-      repo: codexy
+      repo: kora
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets
