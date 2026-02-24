@@ -1,7 +1,7 @@
 - [Git](index.md)
 - [ ] Getting Started
 - [ ] Working with Remotes
-- [ ] Git Clone
+- [x] [Git Clone](git-clone.md)
 - [ ] Staging
 - [ ] Ignoring Files and Folders
 - [ ] Git Diff

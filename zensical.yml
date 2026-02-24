@@ -151,6 +151,7 @@ nav:
           - Dictionaries: reference/swift/dictionaries.md
       - Git:
           - reference/git/index.md
+          - git clone: reference/git/git-clone.md
   - Guides:
       - Rust:
           - guides/rust/index.md
