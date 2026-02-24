@@ -7,6 +7,7 @@ tags:
   - reference
   - cheatsheet
 image: https://i.imgur.com/UNbbLF5.png
+comments: true
 ---
 
 ## Basic enumerations
