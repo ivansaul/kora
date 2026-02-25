@@ -39,18 +39,15 @@ A collection of practical **quick reference**, **guides**, **tips and tricks** f
   <img src="https://img.shields.io/badge/Dart-snow?logo=dart&logoColor=0175C2" />
 </p>
 
+## Contribute
+
+We're always looking to expand and improve **kora**! If you have a `quick-ref` or `guide` to share or see something that could be improved, feel free to submit a pull request. Let's build a valuable resource for developers together. Feel free to [open an issue](https://github.com/ivansaul/kora/issues) if you have any questions or suggestions.
+
 <p align="center">
   <a href="https://discord.gg/tDvybtJ7y9" target="_blank">
     <img src="https://img.shields.io/discord/1244611850700849183?style=social&logo=discord" />
   </a>
-  <a href="https://opensource.org/licenses/GPL-3.0" target="_blank">
-    <img src="https://img.shields.io/badge/License-GPL-yellow.svg?style=social" />
-  </a>
 </p>
-
-## Contribute
-
-We're always looking to expand and improve **kora**! If you have a `quick-ref` or `guide` to share or see something that could be improved, feel free to submit a pull request. Let's build a valuable resource for developers together. Feel free to [open an issue](https://github.com/ivansaul/kora/issues) if you have any questions or suggestions.
 
 <div align="center">
     <img width="200" src="https://files.catbox.moe/uv3d72.svg" alt="img">
