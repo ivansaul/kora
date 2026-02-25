@@ -1,6 +1,6 @@
 ---
 title: Git Branching
-image: https://imgur.com/XZgMLaq
+image: https://i.imgur.com/XZgMLaq.png
 tags:
   - git
   - reference
