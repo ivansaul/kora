@@ -1,10 +1,27 @@
 ---
+title: kora
 icon: lucide/rocket
+image: https://i.imgur.com/c7GuM8z.png
+tags: 
+  - python
+  - rust
+  - swift
+  - javascript
+  - kotlin
+  - go
+  - git
+  - java
+  - ruby
+  - docker
+  - dart
+  - typescript
+  - sql
+description: A collection of practical quick reference, guides, tips and tricks for learning Python, Rust, Swift, JavaScript, Kotlin, Go, Git, Java, Ruby, Docker, Dart, TypeScript, SQL, and more!
 ---
 
 # kora
 
-Quick reference guides for learning `Python`, `Rust`, `Swift`, `JavaScript`, `Kotlin`, `Go`, `Git`, and more!
+A collection of practical **quick reference**, **guides**, **tips and tricks** for learning `Python`, `Rust`, `Swift`, `JavaScript`, `Kotlin`, `Go`, `Git`, and more!
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-snow?logo=python&logoColor=3776AB" />
@@ -22,12 +39,21 @@ Quick reference guides for learning `Python`, `Rust`, `Swift`, `JavaScript`, `Ko
   <img src="https://img.shields.io/badge/Dart-snow?logo=dart&logoColor=0175C2" />
 </p>
 
+<p align="center">
+  <a href="https://discord.gg/tDvybtJ7y9" target="_blank">
+    <img src="https://img.shields.io/discord/1244611850700849183?style=social&logo=discord" />
+  </a>
+  <a href="https://opensource.org/licenses/GPL-3.0" target="_blank">
+    <img src="https://img.shields.io/badge/License-GPL-yellow.svg?style=social" />
+  </a>
+</p>
+
 ## Contribute
 
 We're always looking to expand and improve **kora**! If you have a `quick-ref` or `guide` to share or see something that could be improved, feel free to submit a pull request. Let's build a valuable resource for developers together. Feel free to [open an issue](https://github.com/ivansaul/kora/issues) if you have any questions or suggestions.
 
 <div align="center">
-    <img width="200" src="https://i.imgur.com/oDKBlfO.png" alt="img">
+    <img width="200" src="https://files.catbox.moe/uv3d72.svg" alt="img">
 </div>
 
 <div align="center">

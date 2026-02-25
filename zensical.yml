@@ -2,7 +2,7 @@
 site_name: kora
 site_url: https://kora.ivansaul.com
 site_description: >-
-  A collection of quick reference guides for various programming languages and tools.
+  A collection of practical quick reference, guides, tips and tricks for learning Python, Rust, Swift, JavaScript, Kotlin, Go, Git, Java, Ruby, Docker, Dart, TypeScript, SQL, and more!
 
 # Repository
 repo_name: ivansaul/kora
