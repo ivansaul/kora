@@ -18,6 +18,10 @@ A collection of practical **quick reference**, **guides**, **tips and tricks** f
   <img src="https://img.shields.io/badge/Dart-snow?logo=dart&logoColor=0175C2" />
 </p>
 
+<div align="center">
+    <img src="https://i.imgur.com/RscViDg.png" alt="banner">
+</div>
+
 ## Contribute
 
 We're always looking to expand and improve **kora**! If you have a `quick-ref` or `guide` to share or see something that could be improved, feel free to submit a pull request. Let's build a valuable resource for developers together. Feel free to [open an issue](https://github.com/ivansaul/kora/issues) if you have any questions or suggestions.
