@@ -150,6 +150,7 @@ nav:
           - Dictionaries: reference/swift/dictionaries.md
       - Git:
           - reference/git/index.md
+          - Getting Started: reference/git/getting-started.md
           - git clone: reference/git/git-clone.md
           - git stash: reference/git/git-stash.md
   - Guides:

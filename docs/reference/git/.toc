@@ -1,5 +1,5 @@
 - [Git](index.md)
-- [ ] Getting Started
+- [x] [Getting Started](getting-started.md)
 - [ ] Working with Remotes
 - [x] [Git Clone](git-clone.md)
 - [ ] Staging
