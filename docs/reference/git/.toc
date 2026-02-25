@@ -9,7 +9,7 @@
 - [ ] Merging
 - [ ] Committing
 - [ ] Rebasing
-- [ ] Branching
+- [x] [Branching](branching.md)
 - [ ] Squashing
 - [ ] Cherry Picking
 - [ ] Git Clean

@@ -151,6 +151,7 @@ nav:
       - Git:
           - reference/git/index.md
           - Getting Started: reference/git/getting-started.md
+          - Branching: reference/git/branching.md
           - git clone: reference/git/git-clone.md
           - git stash: reference/git/git-stash.md
   - Guides:
