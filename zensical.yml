@@ -31,7 +31,6 @@ theme:
     - navigation.indexes
     - navigation.path
     - navigation.sections
-    - navigation.tabs
     - navigation.top
     - search.highlight
   palette:
