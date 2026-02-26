@@ -1,7 +1,7 @@
 - [Swift](index.md)
 - [ ] Optionals
 - [ ] Tuples
-- [ ] Arrays
+- [x] [Arrays](arrays.md)
 - [ ] Sets
 - [x] [Enums](enums.md)
 - [ ] Structs
