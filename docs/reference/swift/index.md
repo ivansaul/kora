@@ -1,13 +1,18 @@
 ---
 title: Swift
 icon: fontawesome/brands/swift
+image: https://i.imgur.com/NqEj7og.png
+description: A complete Swift reference covering core language features, common patterns, and practical examples. Designed for beginners and advanced users.
 tags:
     - swift
+    - swiftui
+    - ios
     - reference
+    - guide
 comments: true
 ---
 
-This quick reference provides examples of using Swift that cover basic Swift knowledge.
+A complete Swift reference covering core language features, common patterns, and practical examples. Designed for beginners and advanced users.
 
 !!! abstract "Chapter Contents:"
   
