@@ -1,12 +1,20 @@
+project := "codexy"
+config := "zensical.yml"
+output := "site"
+
 dev:
-  zensical serve -f zensical.yml
+  zensical serve -f {{ config }}
 
 [macos]
 preview:
-  zensical serve -a $(ipconfig getifaddr en0):8080 -f zensical.yml
+  zensical serve -a $(ipconfig getifaddr en0):8080 -f {{ config }}
 
 build:
-  zensical build -f zensical.yml --clean
+  zensical build -f {{ config }} --clean
 
 deploy: build
-  npx wrangler pages deploy site --project-name=codexy --commit-dirty=true
+  {{ if env("CI", "false") == "true" {
+      f'wrangler pages deploy {{ output }} --project-name={{ project }}'
+    } else {
+      f'npx wrangler pages deploy {{ output }} --project-name={{ project }} --commit-dirty=true'
+    } }}
