@@ -1,6 +1,6 @@
 ---
 title: A Deep Dive into Arrays in Swift
-image: https://i.imgur.com/G6Zd9ac.png
+image: https://i.imgur.com/iTkEYoS.png
 tags:
   - swift
   - swiftui
