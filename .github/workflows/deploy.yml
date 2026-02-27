@@ -26,9 +26,6 @@ jobs:
       - name: Install just
         uses: extractions/setup-just@v3
 
-      - name: Build Documentation
-        run: just build
-
       - name: Deploy Documentation
         uses: cloudflare/wrangler-action@v3
         with:
