@@ -7,7 +7,7 @@ site_description: >-
 # Repository
 repo_name: ivansaul/kora
 repo_url: https://github.com/ivansaul/kora
-edit_uri: edit/dev/docs/
+edit_uri: edit/master/docs/
 
 # Copyright
 copyright: "&copy; 2026 ivansaul"
