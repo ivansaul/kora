@@ -33,7 +33,7 @@ We're always looking to expand and improve **kora**! If you have a `quick-ref` o
 </p>
 
 <div align="center">
-    <img width="200" src="https://files.catbox.moe/uv3d72.svg" alt="img">
+    <img width="200" src="https://i.imgur.com/bpk5MlP.png" alt="img">
 </div>
 
 <div align="center">
