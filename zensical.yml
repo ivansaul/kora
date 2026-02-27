@@ -149,6 +149,7 @@ nav:
           - Enums: reference/swift/enums.md
           - Functions: reference/swift/functions.md
           - Dictionaries: reference/swift/dictionaries.md
+          - Generics: reference/swift/generics.md
       - Git:
           - reference/git/index.md
           - Getting Started: reference/git/getting-started.md

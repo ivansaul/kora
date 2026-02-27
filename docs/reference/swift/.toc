@@ -11,4 +11,4 @@
 - [ ] Classes
 - [ ] Closures
 - [ ] Extensions
-- [ ] Generics
+- [x] [Generics](generics.md)
