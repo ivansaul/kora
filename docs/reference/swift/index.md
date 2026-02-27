@@ -1,7 +1,7 @@
 ---
 title: Swift
 icon: fontawesome/brands/swift
-image: https://i.imgur.com/NqEj7og.png
+image: https://i.imgur.com/NvdDjYG.png
 description: A complete Swift reference covering core language features, common patterns, and practical examples. Designed for beginners and advanced users.
 tags:
     - swift
