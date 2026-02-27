@@ -14,7 +14,7 @@ build:
 
 deploy: build
   {{ if env("CI", "false") == "true" {
-      f'wrangler pages deploy {{ output }} --project-name={{ project }}'
+      f'npx wrangler pages deploy {{ output }} --project-name={{ project }}'
     } else {
       f'npx wrangler pages deploy {{ output }} --project-name={{ project }} --commit-dirty=true'
     } }}
