@@ -1,6 +1,6 @@
 ---
-title: Arrays in Swift
-image: https://i.imgur.com/1676j0x.png
+title: A Deep Dive into Arrays in Swift
+image: https://i.imgur.com/G6Zd9ac.png
 tags:
   - swift
   - swiftui
@@ -10,6 +10,8 @@ tags:
 description: A complete guide to working with Arrays in Swift, from basic creation to advanced functional transformations.
 comments: true
 ---
+
+# Arrays in Swift
 
 Array is an ordered, random-access collection type. Arrays are one of the most commonly used data types in an app. We use the Array type to hold elements of a single type, the array's `Element` type. An array can store any kind of elements—from integers to strings to classes. 
 
