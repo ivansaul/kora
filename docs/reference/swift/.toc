@@ -10,5 +10,5 @@
 - [ ] Protocols
 - [ ] Classes
 - [x] [Closures](closures.md)
-- [ ] Extensions
+- [x] [Extensions](extensions.md)
 - [x] [Generics](generics.md)
