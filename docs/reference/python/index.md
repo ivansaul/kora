@@ -1,7 +1,7 @@
 ---
 title: Python Notes for Professionals
 icon: fontawesome/brands/python
-image: https://i.imgur.com/NvdDjYG.png
+image: https://i.imgur.com/6TnmzXi.png
 description: A complete Python reference covering core language features, common patterns, and practical examples. Designed for beginners and advanced users.
 tags:
     - python
