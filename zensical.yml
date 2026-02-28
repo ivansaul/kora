@@ -150,6 +150,7 @@ nav:
           - Functions: reference/swift/functions.md
           - Dictionaries: reference/swift/dictionaries.md
           - Closures: reference/swift/closures.md
+          - Extensions: reference/swift/extensions.md
           - Generics: reference/swift/generics.md
       - Git:
           - reference/git/index.md
