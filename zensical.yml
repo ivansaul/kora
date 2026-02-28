@@ -157,6 +157,8 @@ nav:
           - Branching: reference/git/branching.md
           - git clone: reference/git/git-clone.md
           - git stash: reference/git/git-stash.md
+      - Python:
+          - reference/python/index.md
   - Guides:
       - Rust:
           - guides/rust/index.md
