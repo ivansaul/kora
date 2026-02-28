@@ -1,0 +1,13 @@
+- [Python](index.md)
+- [ ] Data Types
+- [ ] Enum
+- [ ] Sets
+- [ ] Conditionals
+- [ ] Loops
+- [ ] Arrays
+- [ ] Structs
+- [ ] Dictionaries
+- [ ] Functions
+- [ ] Decorators
+- [ ] Classes
+- [ ] Concurrency
