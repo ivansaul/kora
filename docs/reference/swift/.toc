@@ -9,6 +9,6 @@
 - [x] [Functions](functions.md)
 - [ ] Protocols
 - [ ] Classes
-- [ ] Closures
+- [x] [Closures](closures.md)
 - [ ] Extensions
 - [x] [Generics](generics.md)
