@@ -7,7 +7,7 @@
 - [ ] Structs
 - [x] [Dictionaries](dictionaries.md)
 - [x] [Functions](functions.md)
-- [ ] Protocols
+- [x] [Protocols](protocols.md)
 - [ ] Classes
 - [x] [Closures](closures.md)
 - [x] [Extensions](extensions.md)
