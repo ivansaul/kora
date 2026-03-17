@@ -4,7 +4,7 @@
 - [x] [Arrays](arrays.md)
 - [ ] Sets
 - [x] [Enums](enums.md)
-- [ ] Structs
+- [x] [Structs](structs.md)
 - [x] [Dictionaries](dictionaries.md)
 - [x] [Functions](functions.md)
 - [x] [Protocols](protocols.md)
